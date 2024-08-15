@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://vserra12.github.io/Porfolio/",
+  "homepage": "https://vserra12.github.io/Porfolio/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
@@ -16,7 +16,8 @@
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
