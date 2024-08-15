@@ -1,9 +1,9 @@
 {
   "name": "portfolio",
-  "homepage":"https://github.com/VSerra12/Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage":"https://vserra12.github.io/Porfolio/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
