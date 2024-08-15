@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vserra12.github.io/Porfolio/",
+  "homepage": "https://vserra12.github.io/Portfolio/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
