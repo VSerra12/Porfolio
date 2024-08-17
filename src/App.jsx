@@ -5,11 +5,11 @@ import Portfolio from './components/Portfolio'
 function App() {
   return (
     <>
-      <div>
+      <div className='nav'>
         <nav>
           <ul id="navigation">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/Portfolio/">Home</Link>
             </li>
           </ul>
         </nav>
