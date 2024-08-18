@@ -182,3 +182,7 @@ body {
 .nav{
   display: none !important;
 }
+
+.email{
+  cursor: pointer;
+}
