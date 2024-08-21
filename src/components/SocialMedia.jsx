@@ -1,8 +1,8 @@
-import linkedInLogo from '../assets/linkedin.svg'
-import gitHubLogo from '../assets/github.svg'
-import emailLogo from '../assets/envelope-at.svg'
+import linkedInLogo from '../assets/img/linkedin.svg'
+import gitHubLogo from '../assets/img/github.svg'
+import emailLogo from '../assets/img/envelope-at.svg'
 import CopyToClipboard from 'react-copy-to-clipboard';
-import { Overlay, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { useRef, useState } from 'react';
 
 
