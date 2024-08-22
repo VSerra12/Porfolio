@@ -6,23 +6,23 @@ const InfiniteScroll = ({ images, speed = 5000 }) => {
       <div className="inner">
         <div className="wrapper">
           <section style={{ "--speed": `${speed}ms` }}>
-            {images.map(({ id, image }) => (
-              <div className="image" key={id}>
-                <img src={image} alt={id} className="img" />
+            {images.map(( image, idx ) => (
+              <div className="image" key={idx}>
+                <img src={image.src} alt={image.name} className="img" />
               </div>
             ))}
           </section>
           <section style={{ "--speed": `${speed}ms` }}>
-            {images.map(({ id, image }) => (
-              <div className="image" key={id}>
-                <img src={image} alt={id} className="img" />
+            {images.map(( image, idx ) => (
+              <div className="image" key={idx}>
+                <img src={image.src} alt={image.name} className="img" />
               </div>
             ))}
           </section>
           <section style={{ "--speed": `${speed}ms` }}>
-            {images.map(({ id, image }) => (
-              <div className="image" key={id}>
-                <img src={image} alt={id} className="img" />
+            {images.map(( image, idx ) => (
+              <div className="image" key={idx}>
+                <img src={image.src} alt={image.name} className="img" />
               </div>
             ))}
           </section>
